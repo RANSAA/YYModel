@@ -1,8 +1,5 @@
 YYModel
 ==============
-fork分支：这个分支是对duduWang20/YYModel的thread-safe分支进行fork修改的
-将要删除的分支：read,thread-safe
-==============
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYModel/master/LICENSE)&nbsp;
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)&nbsp;
@@ -13,6 +10,13 @@ fork分支：这个分支是对duduWang20/YYModel的thread-safe分支进行fork�
 
 High performance model framework for iOS/OSX.<br/>
 (It's a component of [YYKit](https://github.com/ibireme/YYKit))
+
+更新说明：
+==============
+
+fork分支：  这个分支是对duduWang20/YYModel的thread-safe分支进行fork修改的\
+删除分支：   read,thread-safe
+
 
 
 Performance
