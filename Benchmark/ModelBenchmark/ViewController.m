@@ -37,7 +37,7 @@
 - (void)benchmarkGithubUser {
     
     
-    printf("----------------------\n");
+    printf("----------benchmarkGithubUser------------\n");
     printf("Benchmark (10000 times):\n");
     printf("GHUser             from json    to json    archive\n");
 
@@ -399,7 +399,7 @@
 }
 
 - (void)benchmarkWeiboStatus {
-    printf("----------------------\n");
+    printf("----------benchmarkWeiboStatus------------\n");
     printf("Benchmark (1000 times):\n");
     printf("WeiboStatus     from json    to json    archive\n");
 
@@ -659,7 +659,7 @@
 - (void)testRobustness {
     
     {
-        printf("----------------------\n");
+        printf("----------testRobustness------------\n");
         printf("The property is NSString, but the json value is number:\n");
         NSString *jsonStr = @"{\"type\":1}";
         NSDictionary *json = [NSJSONSerialization JSONObjectWithData:[jsonStr dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:nil];
